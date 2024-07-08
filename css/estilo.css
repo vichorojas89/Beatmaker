@@ -1,0 +1,10 @@
+ul {
+  color: red;
+}
+ul > li {
+  color: green;
+  background-color: black;
+}
+ul > li > a {
+  font-size: 24px;
+}/*# sourceMappingURL=estilo.css.map */

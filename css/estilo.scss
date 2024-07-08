@@ -1,0 +1,15 @@
+ul{
+    color: red;
+    
+    > li{
+        color: green;
+        background-color: black;
+
+        >a{
+            font-size: 24px;
+        }
+        
+        
+    }
+
+}
