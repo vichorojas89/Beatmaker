@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(176, 176, 176);
+    background-color: rgb(176, 176, 176) !important;
 
 }
 
@@ -42,13 +42,8 @@ body{
 }
 
 
-header{
-    background-color: gray;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    grid-gap: 20px;
-}
+
+
 
 .contenedor{
     justify-content: center;
@@ -57,7 +52,7 @@ header{
 
 
 
-@media (width < 990px){
+@media (width < 2000px){
     .contenedor {
         height: 100vh;
         display: grid;
@@ -72,12 +67,12 @@ header{
         justify-items: stretch;
     }
 }
-@media (width < 600px){
+@media (width < 900px){
     .contenedor {
         height: 100vh;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas:
         "logo"
         "introduccion"   
@@ -92,15 +87,14 @@ header{
 
 .logo-imagen{
     width: 100%;
-    
-    
+
 }
 
 
 .logo{
     align-content: center;
     grid-area: logo;
-    width: 500px;
+    width: 250px;
     background-color: black;
     padding: 5px;
     border-radius: 10px;
@@ -355,4 +349,57 @@ header{
     grid-gap:50px;
     padding: 45px 0px;
 
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    margin-right: auto;
+  }
+  
+  .navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+
+  .nav-item {
+    margin: 0 10px;
+  }
+
+  .nav-item :hover{
+    background-color: orange;
+    border-radius: 7%;
+
+  }
+  body{
+    background-color: rgb(176, 176, 176) !important;
+
+}
+.header{
+    background-color: gray !important;
+
+}
+.header2{
+    background-color: gray !important;
+
+}
+
+.carousel{
+    width: 100%;
 }
