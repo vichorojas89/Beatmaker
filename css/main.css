@@ -181,85 +181,6 @@ body{
 }
 
 
-.teclado{
-    grid-area: teclado;
-    background-color: rgb(68, 68, 68);
-    color: orange;
-}
-
-.pad{
-    grid-area: pad;
-    background-color: rgb(59, 59, 59);
-    color: aqua;
-}
-
-.controladores{
-    grid-area: controladores;
-    background-color: rgb(68, 68, 68);
-    color: orange;
-}
-
-.pantalla{
-    grid-area: pantalla;
-    background-color: rgb(59, 59, 59);
-    color: aqua;
-}
-
-.botones{
-    grid-area: botones;
-    background-color: rgb(68, 68, 68);
-    color: orange;
-}
-
-.conectividad{
-    grid-area: conectividad;
-    background-color: rgb(59, 59, 59);
-    color: aqua;
-}
-
-
-
-
-
-.flstudio-imagen{
-    width: 100%;
-}
-
-.maudio-imagen{
-    width: 100%;
-    
-    
-}
-
-
-.maudio, .flstudio{
-    align-content: center;
-    grid-area: logo;
-    width: 500px;
-    background-color: black;
-    padding: 5px;
-    border-radius: 10px;
-}
-
-@media (width < 600px){
-    .lista-oxygen {
-        height: 100vh;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas:
-        "teclado"  
-        "pad" 
-        "controladores"
-        "pantalla" 
-        "botones" 
-        "conectividad";
-        gap: 1rem;
-        align-items: stretch;
-        justify-items: stretch;
-    }
-}
-
 
 .contenedor2{
     justify-content: center;
@@ -268,55 +189,10 @@ body{
 }
 
 
-
-@media (width >= 1401px){
-    .contenedor2 {
-        height: 100vh;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas:
-        "godies bugaloop boreas bsdx vishorockers";
-        gap: 1rem;
-        align-items: stretch;
-        justify-items: stretch;
-    }
-}
-@media (width < 1400px){
-    .contenedor2 {
-        height: 100vh;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas:
-        "godies bugaloop boreas"
-        "bsdx vishorocker";
-        gap: 1rem;
-        align-items: stretch;
-        justify-items: stretch;
-    }
-}
-
-@media (width < 600px){
-    .contenedor2 {
-        height: 100vh;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas:
-        "godies"
-        "bugaloop"   
-        "boreas"
-        "bsdx"
-        "vishorockers";
-        gap: 1rem;
-        align-items: stretch;
-        justify-items: stretch;
-    }
-}
 .pie-pagina{
     width: 100%;
     background-color: rgb(74, 74, 74);
+    color: white;
 }
 .pie-pagina .grupo1{
     width: 100%;
@@ -386,7 +262,7 @@ body{
     background-color: orange;
     border-radius: 7%;
 
-  }
+}
   body{
     background-color: rgb(176, 176, 176) !important;
 
@@ -403,3 +279,29 @@ body{
 .carousel{
     width: 100%;
 }
+
+
+
+.card{
+    background-color: rgb(214, 214, 214);
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .content {
+    flex: 1;
+  }
+  p{
+    text-align: justify;
+  }
