@@ -160,11 +160,6 @@ body{
     }
 }
 
-
-
-
-
-
 @media (width < 900px){
     .lista-oxygen {
         height: 100vh;
@@ -180,14 +175,11 @@ body{
     }
 }
 
-
-
 .contenedor2{
     justify-content: center;
     text-align: center;
     padding: 20px;
 }
-
 
 .pie-pagina{
     width: 100%;
